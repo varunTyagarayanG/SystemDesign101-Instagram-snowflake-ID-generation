@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS virtual_db1;
+CREATE DATABASE IF NOT EXISTS virtual_db1;
+USE virtual_db1;
