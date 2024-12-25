@@ -15,7 +15,7 @@ public class InstagramIDGenerator {
 
     public static void main(String[] args) {
         // User ID to insert
-        String userId = "mkdri_070";
+        String userId = "mkdir_070";
 
         insertUser(userId);
 
