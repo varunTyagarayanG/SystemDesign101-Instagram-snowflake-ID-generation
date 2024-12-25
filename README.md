@@ -1,4 +1,4 @@
-# InstagramIDGenerator
+# Instagram's snowflake ID generation
 
 This project demonstrates a unique ID generation system similar to Instagram's snowflake ID generation, implemented in MySQL with a Java client application. The system ensures distributed unique IDs for database entries using a combination of timestamps, shard IDs, and sequence numbers.
 
