@@ -11,7 +11,7 @@ public class InstagramIDGenerator {
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/virtual_db1";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "Tyagi#2004";
+    private static final String DB_PASSWORD = "use you pass";
 
     public static void main(String[] args) {
         // User ID to insert
