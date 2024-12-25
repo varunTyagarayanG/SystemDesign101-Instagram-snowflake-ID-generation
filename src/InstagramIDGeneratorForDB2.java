@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2024 G Varun Tyagarayan
+ *
+ * This software is licensed under the MIT License.
+ * For details, see the LICENSE file in the root directory of this project.
+ */
 import java.sql.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
