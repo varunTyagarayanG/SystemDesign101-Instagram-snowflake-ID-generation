@@ -2,6 +2,18 @@
 
 This project demonstrates a unique ID generation system similar to Instagram's snowflake ID generation, implemented in MySQL with a Java client application. The system ensures distributed unique IDs for database entries using a combination of timestamps, shard IDs, and sequence numbers.
 
+## How Instagram Handles This Problem
+
+Instagram generates unique IDs using a technique similar to Twitter's Snowflake. This method combines:
+
+1. **Timestamp (41 bits)**: Represents the number of milliseconds since a custom epoch (e.g., 1314220021721). Ensures IDs are roughly sortable by creation time.
+2. **Shard ID (13 bits)**: Helps in partitioning the data across multiple database instances, supporting up to 8192 shards.
+3. **Sequence Number (10 bits)**: Prevents collision within the same shard and timestamp, allowing up to 1024 unique IDs per shard per millisecond.
+
+### Performance
+
+- Instagram's approach can generate up to **1024 IDs per millisecond per shard**, using a 10-bit sequence number.
+- With 8192 shards (13 bits for shard ID), this system can generate over **8 million IDs per millisecond**.
 ## Project Structure
 
 ### SQL Scripts
