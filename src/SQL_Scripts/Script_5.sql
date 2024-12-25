@@ -22,7 +22,7 @@ BEGIN
     CALL generate_id_virtual_db1(user_id, new_seq_id);
 
     -- Assign the generated seq_id to the new row
-    SET NEW.shard_id = 1;  -- Fixed shard ID for virtual_db2
+    SET NEW.shard_id = 1;  -- Fixed shard ID for virtual_db1
     SET NEW.seq_id = new_seq_id;
 END$$
 
