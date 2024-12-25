@@ -30,7 +30,7 @@ This Java program provides functionality to:
 2. Fetch and display the contents of the `seq_counter` table.
 3. Clear the `seq_counter` table.
 
-#### `InstagramIDGeneratorForDB2`
+#### `InstagramIDGeneratorConcurrentConncetions`
 This Java program demonstrates concurrent user insertion using a thread pool.
 
 ### Key Features

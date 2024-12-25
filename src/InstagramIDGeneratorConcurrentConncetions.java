@@ -8,7 +8,7 @@ import java.sql.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class InstagramIDGeneratorForDB2 {
+public class InstagramIDGeneratorConcurrentConncetions {
 
     // Database connection details
     private static final String DB_URL = "jdbc:mysql://localhost:3306/virtual_db1";
