@@ -13,7 +13,7 @@ public class InstagramIDGeneratorConcurrentConncetions {
     // Database connection details
     private static final String DB_URL = "jdbc:mysql://localhost:3306/virtual_db1";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "Tyagi#2004";
+    private static final String DB_PASSWORD = "use your pass";
 
     public static void main(String[] args) {
         int userCount = 20;
